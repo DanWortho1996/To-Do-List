@@ -5,7 +5,28 @@
   text-align: center;
 }
 
-.logo {
+body{
+  background-color: blueviolet;
+}
+
+h1{
+  color: whitesmoke;
+}
+
+.taskBar{
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+button{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  color: blue;
+}
+
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -39,4 +60,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
